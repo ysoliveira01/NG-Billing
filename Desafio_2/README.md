@@ -35,11 +35,11 @@ Subir os containers
 docker compose up --build
 ```
 
-*Banco de dados e tabelas:*
-![mysqldb](./imagens/mysqldb.png)
+*Banco de dados e tabelas:* <br>
+![mysqldb](./imagens/mysqldb.png) <br>
 
-*Execução do composer:*
-![logs](./imagens/logs.png)
+*Execução do composer:* <br>
+![logs](./imagens/logs.png) <br>
 
 # Referência
 

@@ -39,9 +39,9 @@ sudo journalctl -u watch-move.service -f
 echo "novo teste" > /home/yara/NG-Billing/Desafio_3/monitorar/teste3.txt
 ```
 
-*Acompanhamento via logs:*
+*Acompanhamento via logs:* <br>
 
-![teste](./imagens/teste.png)
+![teste](./imagens/teste.png) <br>
 
 # Referências
 

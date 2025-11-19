@@ -46,13 +46,13 @@ docker run -d \
 
 # Testando localmente:
 
-*Via curl: http://localhost:5000/files*
+*Via curl: http://localhost:5000/files* <br>
 
-![curl](./imagens/curl.png)
+![curl](./imagens/curl.png) <br>
 
-*Via navegador: http://localhost:5000/files*
+*Via navegador: http://localhost:5000/files* <br>
 
-![navegador](./imagens/navegador.png)
+![navegador](./imagens/navegador.png) <br>
 
 # Referências
 
