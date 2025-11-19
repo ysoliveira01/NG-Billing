@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# instalar libs necessárias
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# copiar script
+COPY script.py .
+
+# copiar .env dentro do container (opcional — serve para testes)
+COPY .env .
+
+CMD ["python3", "script.py"]

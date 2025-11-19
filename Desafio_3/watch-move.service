@@ -1,0 +1,12 @@
+[Unit]
+Description=Servico de Monitoramento e Movimentacao de Arquivos - Desafio 3
+After=network.target
+
+[Service]
+User=ysoliveira
+Group=ngbilling
+ExecStart=/home/yara/NG-Billing/Desafio_3/watch-move.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
