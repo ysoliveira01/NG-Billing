@@ -1,0 +1,36 @@
+# Arquivos de ambiente
+.env
+*.env
+
+# Arquivos de credenciais
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Arquivos gerados pelo script
+resultado.txt
+
+# Imagens e dados temporários
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# MacOS
+.DS_Store
